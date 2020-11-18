@@ -3,6 +3,7 @@ package br.com.rperatello.booklist;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.ArrayAdapter;
 
 import java.util.ArrayList;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     // View Binding
     private ActivityMainBinding activityMainBinding;
+
+    //Constante para extra de Book
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
                     )
             );
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater
+        return super.onCreateOptionsMenu(menu);
     }
 
 }
